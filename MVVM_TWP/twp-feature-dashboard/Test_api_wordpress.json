@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "760fdcf9-c9d8-4cef-a33f-e0fa24eb64d2",
+		"name": "WordPress API Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Posts WP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categories WP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pages WP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/pages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"pages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tags WP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/tags",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"tags"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Server Informations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						""
+					]
+				},
+				"description": "GET all endpoint to wp server"
+			},
+			"response": []
+		},
+		{
+			"name": "Test WP WEBSITE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users WP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comments WP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get PAGE (id)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/pages/<id>/revisions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"pages",
+						"<id>",
+						"revisions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get POST (id)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/wordpress/wp-json/wp/v2/posts/<id>/revisions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"wordpress",
+						"wp-json",
+						"wp",
+						"v2",
+						"posts",
+						"<id>",
+						"revisions"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
